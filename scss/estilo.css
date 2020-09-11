@@ -1,0 +1,125 @@
+.logo {
+  background: black;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin: 0 auto;
+  padding-top: 12px; }
+
+.container-logo {
+  width: 100%;
+  margin-top: 50px;
+  position: fixed;
+  text-align: center;
+  z-index: 1; }
+
+#cabecera {
+  background: url("/img/2018-VF-OSCARS-0850.jpg") center center no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+h1 {
+  font-family: 'Ultra', serif;
+  color: white; }
+
+p {
+  font-family: 'Chivo', sans-serif;
+  text-align: justify;
+  font-size: 15px; }
+
+#informacion {
+  background: #FFCE00; }
+
+.titulo {
+  background: black;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.text-centrar {
+  display: flex;
+  align-items: center; }
+
+.imagen {
+  width: 100%;
+  height: 100%;
+  max-height: 350px;
+  min-height: 200px; }
+
+.video {
+  width: 100%;
+  height: 100%;
+  max-height: 600px;
+  min-height: 200px; }
+
+.swiper-img {
+  height: 100%;
+  width: 100%;
+  z-index: 0; }
+
+.swipper {
+  max-height: 500px; }
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  z-index: 0; }
+
+.swiper-pagination-bullet {
+  margin: 0px 5px; }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+
+.swiper-pagination {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  width: 100%; }
+
+:root {
+  --swiper-theme-color: white; }
+
+#piepag {
+  background: black; }
+
+.redes-container a {
+  color: #f71c62;
+  font-size: 30px;
+  margin-left: 5px;
+  transition: color 500ms; }
+
+#compartir {
+  color: white;
+  margin-top: 200px; }
+
+.redes-container {
+  margin-bottom: 200px; }
+
+.redes-container a:hover {
+  color: white; }
+
+.marca {
+  height: 50px;
+  width: 100%;
+  background: #FFCE00; }
+
+/*# sourceMappingURL=estilo.css.map */

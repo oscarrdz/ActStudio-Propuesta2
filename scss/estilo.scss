@@ -1,0 +1,181 @@
+$principal:#FFCE00;
+$secundario:#E2E2E2;
+
+
+h1{
+    font-family: 'Ultra', serif;
+    color: white;
+    font-size: 30px;
+}
+p{
+    font-family: 'Chivo', sans-serif;
+    text-align: justify;
+    font-size: 13px;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    left: 50px;
+    top: 50px;
+    text-align: center;
+    position: fixed;
+    padding-top: 10px;
+    background: black;
+    color: white;
+    border: 2px solid white;
+    z-index: 2;
+}
+#cabecera{
+    height: 100vh;
+    text-align: center;
+    
+}
+
+//video-------------}
+.video-cantainer{
+    
+    height: 50vh;
+    background:black;
+    border: 2px solid  $secundario;
+}
+.video{
+    width: 100%;
+   height: 100%;
+}
+.titulo{
+    z-index: 1;
+    background: white;
+    color:black;
+    margin: 0 auto;
+    padding-top:10px ;
+    padding-bottom: 10px;
+}
+.container-titulo{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    
+}
+
+.texto-principal{
+    padding-left: 100px;
+}
+
+//----------------------
+.introduccion{
+    background: $principal;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+//-------------------------------informacion
+#informacion{
+    background: $secundario;
+}
+
+.imagen{
+    width: 100%;
+    height: 100%;
+    max-height: 600px;
+}
+.last-imagen{
+    width: 100%;
+    height: 100%;
+    padding-left: 1%;
+    padding-right: 1%;
+    max-height: 500px;
+}
+.centrar-texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+//-----------------------------
+#piepag{
+    background: black;
+}
+.redes-container a{
+    color:rgb(247, 28, 98);
+   font-size: 30px;
+   margin-left: 5px;
+   transition: color 500ms;
+}
+
+#compartir{
+color:white;
+  margin-top: 200px;
+}
+.redes-container{
+  margin-bottom: 200px;
+}
+.redes-container a:hover{
+    color: white;
+}
+.marca{
+    height: 50px;
+    width: 100%;
+    background: $secundario;
+
+}
+//------------------swipper---
+.swiper-img{
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+.swipper{
+    max-height: 500px;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+  .swiper-pagination-bullet {
+   
+    margin: 0px 5px;
+}
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiper-pagination{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+      width: 100%;
+  }
+  :root {
+    --swiper-theme-color: white;
+}
+//-----------------texto
+@media only screen and (min-width: 1100px) {
+p{
+font-size: 20px;
+}
+h1{
+    font-size: 50px;
+}
+}
